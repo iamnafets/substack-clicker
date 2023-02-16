@@ -1,6 +1,7 @@
 {
   "name": "substack-clicker",
   "displayName": "Substack clicker",
+  "license": "MIT",
   "version": "0.0.1",
   "description": "Clicks \"Continue Reading\" on substack pages",
   "author": "iamnafets",
@@ -25,7 +26,7 @@
   },
   "manifest": {
     "host_permissions": [
-      "https://*/*"
+      "https://*.substack.com/*"
     ]
   }
 }
